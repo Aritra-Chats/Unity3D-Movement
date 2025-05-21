@@ -10,6 +10,7 @@ enum EPlayerMovementStates
     Walking,
     Running,
 }
+
 public class PlayerMovementStateFactory
 {
     PlayerMovementStateManager _context;

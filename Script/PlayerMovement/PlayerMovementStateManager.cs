@@ -121,6 +121,7 @@ public class PlayerMovementStateManager : MonoBehaviour
         _temp_gravity = AppliedGravity;
         SetupJumpVariables();
     }
+
     void SetupJumpVariables()
     {
         float TimeToApex = MaxJumpTime / 2;
